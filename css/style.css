@@ -3,7 +3,7 @@
     color: #00398D;
 } 
 
-a, i {
+a, i, link {
     text-decoration: none;
 }
 
@@ -17,22 +17,24 @@ a, i {
     padding: 10px;
 }
 
-#logo-azul-container {
-    padding-right: 20px;
-}
-
 #logo {
-    width: 100px;
+    width: 80px;
     border-radius: 100%;
 }
 
+#textos-header {
+    padding-top: 10px;
+}
+
 .titulo-header {
-    font-size: 35px;
+    font-size: 22px;
     font-weight: 600;
 }
 
 .paragrafo-header {
-    font-size: 25px;
+    font-size: 15px;
+    text-indent: 40px;
+    font-weight: 400;
 }
 
 #textos-header {
@@ -40,6 +42,24 @@ a, i {
     color: #00398D;
 }
 
-#pata-azul {
-    width: 30px;
+.icone-p1, .icone-p2, .icone-p3, .icone-p4, .icone-p5 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 25%);
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #00398D;
+}
+
+.nav-link {
+    color: #dfdfdf;
+    padding: 10px 30px;
+}
+
+#linha-vertical {
+    height: 30px;
+    border-right: 1px solid #dfdfdf;
+    margin-top: 8px;
 }

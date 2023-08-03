@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Fontawesone-->
+    <script src="https://kit.fontawesome.com/4a1e05ee49.js" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -19,35 +21,45 @@
 <body>
     <header>
         <div class="container">
-            <div id="logo-container" class="row">
-                <div class="col-6 d-flex">
+            <div id="logo-container" class="row justify-content-between">
+                <div id="logo-e-texto" class="col-10 d-flex">
                     <div class="img-logo">
                         <img id="logo" src="img/Logo-Azul-Clinica.webp" alt="logo-azul">
                     </div>
                     <div id="textos-header" class="col">
                         <h1 class="titulo-header">São Francisco de Assis</h1>
                         <div class="linha-horizontal-header"></div>
-                        <p class="paragrafo-header">Clínica Veterinária </p>
+                        <h5 class="paragrafo-header">Clínica Veterinária</h5>
                     </div>
                 </div>
-                <div id="patinhas-header" class="col-6">
-                    <img id="pata-azul" src="img/pata-azul.webp" alt="patinha-azul">
-                    <img id="pata-azul" src="img/pata-azul.webp" alt="patinha-azul">
-                    <img id="pata-azul" src="img/pata-azul.webp" alt="patinha-azul">
-                    <img id="pata-azul" src="img/pata-azul.webp" alt="patinha-azul">
-                    <img id="pata-azul" src="img/pata-azul.webp" alt="patinha-azul">
+                <div id="patinhas-header" class="col-2">
+                    <i class="fa-solid fa-paw icone-p1"></i>
+                    <i class="fa-solid fa-paw icone-p2"></i>
+                    <i class="fa-solid fa-paw icone-p3"></i>
+                    <i class="fa-solid fa-paw icone-p4"></i>
+                    <i class="fa-solid fa-paw icone-p5"></i>
                 </div>
-            </div>
-            </div>              
-            <nav id="navbar" class="container">
-                <div class="row justify-content-center">
-                    <a href="#">Home</a>
-                    <a href="#">Projetos</a>
-                    <a href="#">Artistas</a>
-                    <a href="#">Contato</a>
-                </div>
-            </nav>
+            </div>       
         </div>
     </header>
+    <nav id="navbar" class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <div id="linha-vertical"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">A CLÍNICA</a>
+            </li>
+            <div id="linha-vertical"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVIÇOS</a>
+            </li>
+            <div id="linha-vertical"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">INFORMAÇÕES</a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>
