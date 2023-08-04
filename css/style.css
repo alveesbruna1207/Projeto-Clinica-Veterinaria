@@ -31,11 +31,18 @@ a, i, link {
     font-weight: 600;
 }
 
+.linha-horizontal-header {
+    width: 230px;
+    border-bottom: 2px solid #00398D;
+}
+
 .paragrafo-header {
     font-size: 15px;
-    text-indent: 40px;
+    text-indent: 55px;
     font-weight: 400;
+    padding-top: 7px;
 }
+
 
 #textos-header {
     padding-left: 30px;
@@ -59,5 +66,5 @@ a, i, link {
 }
 
 #patinhas-logo {
-    width: 200px;
+    width: 190px;
 }
