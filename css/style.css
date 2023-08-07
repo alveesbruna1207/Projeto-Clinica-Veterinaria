@@ -12,41 +12,26 @@ a, i, link {
 }
 
 /* Header */
-#logo-container {
-    display: flex;
-    padding: 10px;
-}
-
 #logo {
-    width: 80px;
     border-radius: 100%;
 }
 
-#textos-header {
-    padding-top: 10px;
-}
-
 .titulo-header {
-    font-size: 22px;
     font-weight: 600;
 }
 
-.linha-horizontal-header {
-    width: 230px;
-    border-bottom: 2px solid #00398D;
-}
-
 .paragrafo-header {
-    font-size: 15px;
-    text-indent: 55px;
     font-weight: 400;
     padding-top: 7px;
 }
 
-
 #textos-header {
-    padding-left: 30px;
+
     color: #00398D;
+}
+
+#patinhas-logo {
+    padding-top: 10px;
 }
 
 /* Navbar */
@@ -56,7 +41,7 @@ a, i, link {
 
 .nav-link {
     color: #dfdfdf;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 
 #linha-vertical {
@@ -65,6 +50,11 @@ a, i, link {
     margin-top: 8px;
 }
 
-#patinhas-logo {
-    width: 190px;
+/* Main */
+.linha-horizontal {
+    border-bottom: 2px solid #00398D;
+}
+
+.titulo-home-servicos {
+    font-weight: 700;
 }

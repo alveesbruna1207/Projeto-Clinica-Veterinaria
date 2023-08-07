@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="img/pata-azul.webp" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous" defer></script>
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Fontawesone-->
@@ -19,45 +21,83 @@
     <title>Clínica São Francisco de Assis</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="logo-container" class="row">
-                <div id="logo-e-texto" class="col d-flex justify-content-between">
-                    <div class="logo-texto d-flex">
-                        <div class="img-logo">
-                            <img id="logo" src="img/Logo-Azul-Clinica.webp" alt="logo-azul">
-                        </div>
-                        <div id="textos-header">
-                            <h1 class="titulo-header">São Francisco de Assis</h1>
-                            <div class="linha-horizontal-header"></div>
-                            <h5 class="paragrafo-header">Clínica Veterinária</h5>
-                        </div>
-                    </div>
-                    <div id="patinhas-header">
-                        <img src="img/patas-azuis.webp"  alt="" id="patinhas-logo">
-                    </div>
+    <header class="py-3">
+        <div class="container d-flex justify-content-between">
+            <div class="logo-texto d-flex">
+                <div class="img-logo">
+                    <img id="logo" src="img/Logo-Azul-Clinica.webp" alt="logo-azul" width="80">
                 </div>
-            </div>       
+                <div id="textos-header" class="p-2">
+                    <h1 class="titulo-header xl fs-4 md fs-5 ">São Francisco de Assis</h1>
+                    <div class="linha-horizontal-header" style="border-bottom: 2px solid #00398D"></div>
+                    <h5 class="paragrafo-header xl fs-6 text-center">Clínica Veterinária</h5>
+                </div>
+            </div>
+            <div id="patinhas-header">
+                <img src="img/patas-azuis.webp"  alt="patinhas-azuis" id="patinhas-logo" width="170">
+            </div>  
         </div>
     </header>
+
+
     <nav id="navbar" class="container">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="index.html">HOME</a>
             </li>
             <div id="linha-vertical"></div>
             <li class="nav-item">
-              <a class="nav-link" href="#">A CLÍNICA</a>
+              <a class="nav-link" href="aclinica.html">A CLÍNICA</a>
             </li>
             <div id="linha-vertical"></div>
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVIÇOS</a>
+              <a class="nav-link" href="servicos.html">SERVIÇOS</a>
             </li>
             <div id="linha-vertical"></div>
             <li class="nav-item">
-              <a class="nav-link" href="#">INFORMAÇÕES</a>
+              <a class="nav-link" href="informacoes.html">INFORMAÇÕES</a>
             </li>
         </ul>
     </nav>
+
+    <main>
+        <div class="container mb-4 d-flex justify-content-center">
+            <div class="col-8 m-3">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                   <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                        <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+                        <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <h3>Chegamos na metade do ano e você já realizou algum check-up esse ano no seu Pet?</h3>
+                            <img src="/img/Imagem1-Carousel.webp" class="d-bloco w-100 imagem-carousel rounded"></img>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <h3>Chegamos na metade do ano e você já realizou algum check-up esse ano no seu Pet?</h3>
+                            <img src="/img/Imagem1-Carousel.webp" class="d-bloco w-100 imagem-carousel rounded"></img>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <h3>Chegamos na metade do ano e você já realizou algum check-up esse ano no seu Pet?</h3>
+                            <img src="/img/Imagem1-Carousel.webp" class="d-bloco w-100 imagem-carousel rounded"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="linha-horizontal"></div>
+        </div>
+        <div class="container text-center p-4">
+            <h3 class="titulo-home-servicos fs-3">ALGUNS DE NOSSOS SERVIÇOS:</h3>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h4>CONSULTAS</h4>
+                    <i class="fa-solid fa-stethoscope"></i>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
