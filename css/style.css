@@ -41,7 +41,7 @@ a, i, link {
 
 .nav-link {
     color: #dfdfdf;
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 
 #linha-vertical {
@@ -57,4 +57,21 @@ a, i, link {
 
 .titulo-home-servicos {
     font-weight: 700;
+}
+
+#quadro-servicos-home {
+    margin-top: 20px;
+}
+
+.quadro-home {
+    box-shadow: 2px 2px 2px 2px #dfdfdf;
+    border-radius: 20px;
+}
+
+.icone-quadro-header {
+    font-size: 60px;
+}
+
+.titulo-quadro-home {
+    padding: 5px 0;
 }
