@@ -12,6 +12,10 @@ a, i, link {
 }
 
 /* Header */
+header .container {
+    justify-content: space-between;
+}
+
 #logo {
     border-radius: 100%;
 }
@@ -23,7 +27,7 @@ a, i, link {
 #patinhas-logo {
     padding-top: 10px;
 }
-
+    
 /* Navbar */
 #navbar {
     background-color: #00398D;
@@ -31,7 +35,7 @@ a, i, link {
 
 .nav-link {
     color: #dfdfdf;
-    padding: 10px 15px;
+    padding: 10px 25px;
 }
 
 #linha-vertical {
@@ -40,7 +44,23 @@ a, i, link {
     margin-top: 8px;
 }
 
+@media screen and (max-width: 500px) {
+    header .container {
+        justify-content: center;
+    }
+
+    #patinhas-header {
+        display: none;
+    }
+
+    ul .nav {
+        flex-wrap: wrap;
+    }
+}
+
 /* Main */
+
+/*Index*/
 .titulo-home-servicos {
     font-weight: 700;
 }
@@ -74,6 +94,16 @@ a, i, link {
 
 .paciente-header {
     border-radius: 100px;
+}
+
+/* A clinica */
+
+.caixa-texto-clinica {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
 }
 
 /* Footer */
