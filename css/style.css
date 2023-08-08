@@ -26,7 +26,6 @@ a, i, link {
 }
 
 #textos-header {
-
     color: #00398D;
 }
 
@@ -74,4 +73,18 @@ a, i, link {
 
 .titulo-quadro-home {
     padding: 5px 0;
+}
+
+#depoimentos-header {
+    background-color: #00398D;
+    border-radius: 10px;
+}
+
+#col-depoimento {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.paciente-header {
+    border-radius: 100px;
 }
