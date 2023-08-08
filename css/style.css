@@ -16,17 +16,8 @@ a, i, link {
     border-radius: 100%;
 }
 
-.titulo-header {
-    font-weight: 600;
-}
-
 .paragrafo-header {
-    font-weight: 400;
     padding-top: 7px;
-}
-
-#textos-header {
-    color: #00398D;
 }
 
 #patinhas-logo {
@@ -50,10 +41,6 @@ a, i, link {
 }
 
 /* Main */
-.linha-horizontal {
-    border-bottom: 2px solid #00398D;
-}
-
 .titulo-home-servicos {
     font-weight: 700;
 }
@@ -88,3 +75,5 @@ a, i, link {
 .paciente-header {
     border-radius: 100px;
 }
+
+/* Footer */
