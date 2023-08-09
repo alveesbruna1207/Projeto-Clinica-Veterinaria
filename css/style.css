@@ -99,11 +99,23 @@ header .container {
 /* A clinica */
 
 .caixa-texto-clinica {
-    background-image: url("img_tree.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    margin-right: 200px;
-    background-attachment: fixed;
+    background: #fff url(/img/Foto-Fachada-Clinica.webp) no-repeat left top;
+    background-size: contain;
+    opacity: .5;
+}
+
+/* Serviços */
+
+.icone-servicos {
+    font-size: 27px;
+}
+
+/* Informações */
+
+#linha-vertical-informacoes {
+    height: 170px;
+    border-right: 1px solid #dfdfdf;
+    margin-top: 8px;
 }
 
 /* Footer */
