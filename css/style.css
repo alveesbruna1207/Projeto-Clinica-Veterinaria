@@ -16,35 +16,17 @@ header .container {
     justify-content: space-between;
 }
 
-#logo {
-    border-radius: 100%;
-}
-
-.paragrafo-header {
-    padding-top: 7px;
-}
-
 #patinhas-logo {
     padding-top: 10px;
 }
     
 /* Navbar */
-#navbar {
-    background-color: #00398D;
-}
-
 .nav-link {
     color: #dfdfdf;
     padding: 10px 25px;
 }
 
-#linha-vertical {
-    height: 30px;
-    border-right: 1px solid #dfdfdf;
-    margin-top: 8px;
-}
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 541px) {
     header .container {
         justify-content: center;
     }
@@ -53,25 +35,16 @@ header .container {
         display: none;
     }
 
-    ul .nav {
-        flex-wrap: wrap;
+    .nav-link { 
+        padding: 10px 15px;
     }
 }
 
 /* Main */
 
 /*Index*/
-.titulo-home-servicos {
-    font-weight: 700;
-}
-
 #quadro-servicos-home {
     margin-top: 20px;
-}
-
-.quadro-home {
-    box-shadow: 2px 2px 2px 2px #dfdfdf;
-    border-radius: 20px;
 }
 
 .icone-quadro-header {
