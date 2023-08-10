@@ -12,12 +12,9 @@ a, i, link {
 }
 
 /* Header */
+
 header .container {
     justify-content: space-between;
-}
-
-#patinhas-logo {
-    padding-top: 10px;
 }
     
 /* Navbar */
@@ -26,52 +23,11 @@ header .container {
     padding: 10px 25px;
 }
 
-@media screen and (max-width: 541px) {
-    header .container {
-        justify-content: center;
-    }
-
-    #patinhas-header {
-        display: none;
-    }
-
-    .nav-link { 
-        padding: 10px 15px;
-    }
-}
-
-/* Main */
-
 /*Index*/
-#quadro-servicos-home {
-    margin-top: 20px;
-}
 
 .icone-quadro-header {
     font-size: 60px;
 }
-
-.titulo-quadro-home {
-    padding: 5px 0;
-}
-
-#depoimentos-header {
-    background-color: #00398D;
-    border-radius: 10px;
-}
-
-#col-depoimento {
-    background-color: #fff;
-    border-radius: 15px;
-}
-
-/* A clinica */
-
-.caixa-texto-clinica {
-    background: #fff url(/img/Foto-Fachada-Clinica-1.webp) no-repeat center;
-}
-
-/* Serviços */
 
 /* Informações */
 
@@ -81,12 +37,34 @@ header .container {
     margin-top: 8px;
 }
 
-.caixa-horario-localizacao {
-    margin-top: 60px;
+/* Outros*/
+
+.nav-link:hover, .icones-footer:hover, .titulo-quadro-home:hover, .icone-index:hover {
+    color: #3b67aa;
 }
 
-.perguntas-e-icones {
-    margin-bottom: 70px;
+@media screen and (max-width: 541px) {
+    header .container {
+        justify-content: center;
+    }
+
+    #patinhas-header, .icones-perguntas {
+        display: none;
+    }
+
+    .nav-link { 
+        padding: 10px 15px;
+    }
 }
 
-/* Footer */
+@media screen and (max-width: 600px) {
+    .perguntas-letra {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .icones-perguntas {
+        display: none;
+    }
+}
