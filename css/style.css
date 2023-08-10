@@ -68,9 +68,7 @@ header .container {
 /* A clinica */
 
 .caixa-texto-clinica {
-    background: #fff url(/img/Foto-Fachada-Clinica.webp) no-repeat left top;
-    background-size: contain;
-    opacity: .5;
+    background: #fff url(/img/Foto-Fachada-Clinica-1.webp) no-repeat center;
 }
 
 /* Serviços */
