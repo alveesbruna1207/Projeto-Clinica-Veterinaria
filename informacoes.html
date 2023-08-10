@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="img/pata-azul.webp" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous" defer></script>
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Fontawesone-->
@@ -59,25 +61,25 @@
     </nav>
 
     <main>
-        <h2 class="text-center p-4">Em que podemos te ajudar?</h2>
+        <h2 class="fw-bold text-center p-4" style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 25%)">Em que podemos te ajudar?</h2>
         <div class="container p-2 d-flex justify-content-center">
             <div class="card w-75 mb-3 p-4" style="background-color: #00398D; border-radius: 10px;">
                 <h3 class="card-title p-2" style="color: white;">Entre em contato:</h3>
                 <div class="card-body d-flex align-items-center justify-content-around">
                     <div class="contatos text-center">
-                        <h3 class="fw-normal sm fs-5" style="color: white;">Telefone</h3>
+                        <h3 class="fw-normal fs-4 sm fs-5" style="color: white;">Telefone</h3>
                         <i class="fa-solid fa-phone p-3" style="color: #ffffff; font-size: 50px;"></i>
-                        <h3 class="fw-normal fs-4 sm fs-5" style="color: white;">(11)2097-4978</h3>
+                        <h3 class="fw-normal lg fs-4 sm fs-5" style="color: white;">(11)2097-4978</h3>
                     </div>
                     <div id="linha-vertical-informacoes"></div>
                     <div class="contatos text-center">
-                        <h3 class="fw-normal sm fs-5" style="color: white;">Whatsapp</h3>
+                        <h3 class="fw-normal fs-4 sm fs-5" style="color: white;">Whatsapp</h3>
                         <i class="fa-brands fa-whatsapp p-3" style="color: #ffffff; font-size: 50px;"></i>
                         <h3 class="fw-normal fs-4 sm fs-5" style="color: white;">(11)94724-1120</h3>
                     </div>
                     <div id="linha-vertical-informacoes"></div>
                     <div class="contatos text-center">
-                        <h3 class="fw-normal sm fs-5" style="color: white;">Instagram</h3>
+                        <h3 class="fw-normal fs-4 sm fs-5" style="color: white;">Instagram</h3>
                         <i class="fa-brands fa-instagram p-3" style="color: #ffffff; font-size: 50px;"></i>
                         <h3 class="fw-normal fs-4 sm fs-5" style="color: white;">@clinicavetsfa</h3>
                     </div>
@@ -85,25 +87,124 @@
             </div>
         </div>
         
-        <div class="container">
-            <div class="row p-3">
-              <div class="col-7 align-self-start">
-                <h3 class="fw-bold text-center">Horário de Funcionamento</h3>
-                <div class="caixa-horário text-center p-4" style="box-shadow: 2px 4px 4px rgba(0, 0, 0, 25%); border-radius: 10px;">
-                    <p class="fw-bold fs-4 sm fs-5">Segunda à Sábado das</p>
-                    <p class="fw-bold fs-4 sm fs-5">08:00 às 23:00</p>
-                </div>
-              </div>
+        <div class="caixa-horario-localizacao">
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-6 text-center">
+                        <h3 class="fs-2 fw-bold text-center" style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 25%)">Horário de Funcionamento</h3>
+                        <div class="texto-localizacao p-3" style="box-shadow: 2px 4px 4px rgba(0, 0, 0, 25%); border-radius: 10px;">
+                            <p class="fw-bold fs-4 sm fs-5">Segunda à Sábado das</p>
+                            <p class="fw-bold fs-4 sm fs-5">08:00 às 23:00</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>   
+                
+            <div class="container">
+                <div class="row p-3 justify-content-end">
+                    <div class="col-6 text-center">
+                        <h3 class="fs-2 fw-bold text-center" style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 25%)">Localização</h3>
+                        <div class="texto-localizacao p-3" style="box-shadow: 2px 4px 4px rgba(0, 0, 0, 25%); border-radius: 10px;">
+                            <p class="fw-bold fs-3 sm fs-5 text-start">Estamos localizados na:</p>
+                            <div class="textos-localizacao d-flex justify-content-around">
+                                <div class="caixa-endereco py-4">
+                                    <p class="fw-bold fs-4 sm fs-6" style="line-height: 1;">R. Antônio de Barros, 2551</p>
+                                    <p class="fw-bold fs-4 sm fs-6" style="line-height: 1;">Tatuapé, São Paulo - SP</p>
+                                    <p class="fw-bold fs-4 sm fs-6" style="line-height: 1;">03401-001</p>
+                                </div>
+                                <div class="caixa-endereco">
+                                    <i class="fa-solid fa-location-dot icone-quadro-header" style="color: #f90b0b;"></i>
+                                    <p class="fw-bold fs-5 sm fs-6"><a href="#" style="color: #00398D">Clique e veja</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
             </div>
-            <div class="row p-3 d-flex justify-content-flex-end">
-                <div class="col-7 justify-content-flex-end">
-                  <h3 class="fw-bold text-center">Localização</h3>
-                  <div class="caixa-horário text-center p-4" style="box-shadow: 2px 4px 4px rgba(0, 0, 0, 25%); border-radius: 10px;">
-                      <p class="fw-bold fs-4 sm fs-5">Segunda à Sábado das</p>
-                      <p class="fw-bold fs-4 sm fs-5">08:00 às 23:00</p>
-                  </div>
+        </div>
+
+        <div class="container">
+            <h2 class="text-center m-4" style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 25%)">Perguntas Frequentes</h2>
+            <div class="perguntas-e-icones d-flex" style="border: 2px solid #00398D; border-radius: 10px; box-shadow: 2px 2px 2px rgba(0, 0, 0, 25%);">
+                <div class="caixa-perguntas" style="width: 70%;">
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <h3 class="h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            <i class="fa-solid fa-paw px-3"></i>
+                            Qual o valor da consulta?
+                            </h3>
+                            
+                            <div class="collapse" id="collapse1">
+                                <p class="fw-normal px-3"> R$120,00 (sujeito a alteração)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <h3 class="h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <i class="fa-solid fa-paw px-3"></i>
+                            Precisa agendar a consulta?
+                            </h3>
+                            
+                            <div class="collapse" id="collapse2">
+                                <p class="fw-normal px-3"> Não é necessário agendamento</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <h3 class="h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <i class="fa-solid fa-paw px-3"></i>
+                            De quanto em quanto tempo preciso vacinar meu pet?
+                            </h3>
+                            
+                            <div class="collapse" id="collapse3">
+                                <p class="fw-normal px-3"> Quando filhote, são 2 doses, depois será anual</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <h3 class="h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <i class="fa-solid fa-paw px-3"></i>
+                            Quais são as vacinas que meu filhote precisa tomar?
+                            </h3>
+                            
+                            <div class="collapse" id="collapse4">
+                                <p class="fw-normal px-3"> Depende da especie</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <h3 class="h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            <i class="fa-solid fa-paw px-3"></i>
+                            Posso levar meu gato para tomar banho?
+                            </h3>
+                            
+                            <div class="collapse" id="collapse5">
+                                <p class="fw-normal px-3"> Sim, temos uma área separada</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <h3 class="h5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                            <i class="fa-solid fa-paw px-3"></i>
+                            Com quantos meses posso castrar meu pet?
+                            </h3>
+                            
+                            <div class="collapse" id="collapse6">
+                                <p class="fw-normal px-3"> A partir de 6 meses</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="icones-perguntas align-self-end">
+                    <i class="fa-solid fa-cat" style="font-size: 70px;"></i>
+                    <i class="fa-solid fa-dog" style="font-size: 70px;"></i>
+                </div>
+            </div>
         </div>
     </main>
 </body>

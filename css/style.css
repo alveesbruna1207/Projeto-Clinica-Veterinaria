@@ -106,16 +106,20 @@ header .container {
 
 /* Serviços */
 
-.icone-servicos {
-    font-size: 27px;
-}
-
 /* Informações */
 
 #linha-vertical-informacoes {
     height: 170px;
     border-right: 1px solid #dfdfdf;
     margin-top: 8px;
+}
+
+.caixa-horario-localizacao {
+    margin-top: 60px;
+}
+
+.perguntas-e-icones {
+    margin-bottom: 70px;
 }
 
 /* Footer */
