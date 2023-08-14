@@ -9,6 +9,7 @@ a, i, link {
 
 body {
     background-color: F5F5F5;
+    cursor: url('/img/pata-azul.webp');
 }
 
 ::-webkit-scrollbar-track {
@@ -72,7 +73,7 @@ header .container {
 
 /* Outros*/
 
-.nav-link:hover, .icones-footer:hover, .perguntas-letra:hover {
+.nav-link:hover, .icones-footer:hover, .perguntas-letra:hover, .saiba-mais:hover {
     color: #3b67aa;
 }
 
