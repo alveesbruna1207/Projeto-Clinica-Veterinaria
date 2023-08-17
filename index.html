@@ -8,10 +8,8 @@
     <!-- Fav icon -->
     <link rel="shortcut icon" href="img/Icone-Pata.webp" type="image/x-icon">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous" defer></script>
-    <!-- Ícones -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    <!-- Ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Fontawesone-->
     <script src="https://kit.fontawesome.com/4a1e05ee49.js" crossorigin="anonymous"></script>
@@ -40,24 +38,26 @@
     </header>
 
 
-    <nav id="navbar" class="container justify-content-center" style="background-color: #00398D;">
-        <ul class="nav justify-content-center flex-wrap">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <div id="linha-vertical" style="height: 30px; border-right: 1px solid #dfdfdf; margin-top: 8px;"></div>
-            <li class="nav-item">
-              <a class="nav-link" href="aclinica.html">A CLÍNICA</a>
-            </li>
-            <div id="linha-vertical" style="height: 30px; border-right: 1px solid #dfdfdf; margin-top: 8px;"></div>
-            <li class="nav-item">
-              <a class="nav-link" href="servicos.html">SERVIÇOS</a>
-            </li>
-            <div id="linha-vertical" style="height: 30px; border-right: 1px solid #dfdfdf; margin-top: 8px;"></div>
-            <li class="nav-item">
-              <a class="nav-link" href="informacoes.html">INFORMAÇÕES</a>
-            </li>
-        </ul>
+    <nav id="navbar" class="justify-content-center" style="background-color: #00398D;">
+        <div class="container">
+            <ul class="nav justify-content-center flex-wrap">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <div id="linha-vertical" style="height: 30px; border-right: 1px solid #dfdfdf; margin-top: 8px;"></div>
+                <li class="nav-item">
+                <a class="nav-link" href="aclinica.html">A CLÍNICA</a>
+                </li>
+                <div id="linha-vertical" style="height: 30px; border-right: 1px solid #dfdfdf; margin-top: 8px;"></div>
+                <li class="nav-item">
+                <a class="nav-link" href="servicos.html">SERVIÇOS</a>
+                </li>
+                <div id="linha-vertical" style="height: 30px; border-right: 1px solid #dfdfdf; margin-top: 8px;"></div>
+                <li class="nav-item">
+                <a class="nav-link" href="informacoes.html">INFORMAÇÕES</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <main>
@@ -71,17 +71,23 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active text-center">
-                            <h3 class="fs-3 sm fs-5">Chegamos na metade do ano e você já realizou algum check-up esse ano no seu Pet?</h3>
+                            <div class="item-caption">
+                                <h3 class="fs-3 sm fs-5">Chegamos na metade do ano e você já realizou algum check-up esse ano no seu Pet?</h3>
+                            </div>
                             <img src="/img/Imagem1-Carousel.webp" class="d-bloco w-100 imagem-carousel" style="border-radius: 20px;"></img>
                         </div>
-                        <div class="carousel-item text-center">
-                            <h3 class="fs-3 sm fs-5">Você sabia que as mudanças bruscas de temperatura afetam a saúde dos Pets?</h3>
+                        <!--div class="carousel-item text-center">
+                            <div class="item-caption">
+                                <h3 class="fs-3 sm fs-5">Você sabia que as mudanças bruscas de temperatura afetam a saúde dos Pets?</h3>
+                            </div>
                             <img src="/img/Imagem2-Carousel.webp" class="d-bloco w-100 imagem-carousel" style="border-radius: 20px;"></img>
                         </div>
                         <div class="carousel-item text-center">
-                            <h3 class="fs-3 sm fs-5">Sabia que para levar o seu Pet a um destino internacional é necessário emitir o CVI (Certificado Veterinário Internacional)?</h3>
+                            <div class="item-caption">
+                                <h3 class="fs-3 sm fs-5">Sabia que para levar o seu Pet a um destino internacional é necessário emitir o CVI (Certificado Veterinário Internacional)?</h3>
+                            </div>
                             <img src="/img/Imagem3-Carousel-_1_.webp" class="d-bloco w-100 imagem-carousel" style="border-radius: 20px;"></img>
-                        </div>
+                        </div-->
                     </div>
                 </div>
             </div>
@@ -128,34 +134,42 @@
             </div>
         </div>
 
-        <div class="container p-3" id="depoimentos-header" style="margin-bottom: 50px; margin-top: 50px; border-radius: 10px; background-color: #00398D;">
-            <h2 class="p-3" style="color: #fff;">Depoimentos dos nossos pacientes:</h2>
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-around" id="row-dos-depoimentos">
-                <div class="feature col p-3 text-center m-3" id="col-depoimento" style="background-color: #fff; border-radius: 15px;">
-                    <img src="img/Foto-Charlie.webp" alt="" class="paciente-header">
-                    <h3>Charlie:</h3>
-                    <div class="texto-depoimento d-flex p-2" >
-                        <i class="fa-solid fa-quote-left p-2"></i>
-                        <p class="fs-6">...Sempre vou tomar banho com as minhas irmãzinhas e volto cheirosinho...</p>
-                        <i class="fa-solid fa-quote-right p-2"></i>
+        <div class="container">
+            <div class="p-5 rounded-4 mb-4" id="depoimentos-header" style="background-color: #00398D;">
+                <h2 class="mb-4" style="color: #fff;">Depoimentos dos nossos pacientes:</h2>
+                <div class="row g-3" id="row-dos-depoimentos">
+                    <div class="col">
+                        <div class="feature h-100 p-3 text-center" id="col-depoimento" style="background-color: #fff; border-radius: 15px;">
+                            <img src="img/Foto-Charlie.webp" alt="" class="paciente-header">
+                            <h3>Charlie:</h3>
+                            <div class="texto-depoimento d-flex p-2" >
+                                <i class="fa-solid fa-quote-left p-2"></i>
+                                <p class="fs-6">...Sempre vou tomar banho com as minhas irmãzinhas e volto cheirosinho...</p>
+                                <i class="fa-solid fa-quote-right p-2"></i>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="feature col p-3 text-center m-3" id="col-depoimento" style="background-color: #fff; border-radius: 15px;">
-                    <img src="img/Foto-Ala.webp" alt="" class="paciente-header">
-                    <h3>Ala:</h3>
-                    <div class="texto-depoimento d-flex p-2" >
-                        <i class="fa-solid fa-quote-left p-2"></i>
-                        <p class="fs-6">...Sempre vou tomar banho com as minhas irmãzinhas e volto cheirosinho...</p>
-                        <i class="fa-solid fa-quote-right p-2"></i>
+                    <div class="col">
+                        <div class="feature h-100 p-3 text-center" id="col-depoimento" style="background-color: #fff; border-radius: 15px;">
+                            <img src="img/Foto-Ala.webp" alt="" class="paciente-header">
+                            <h3>Ala:</h3>
+                            <div class="texto-depoimento d-flex p-2" >
+                                <i class="fa-solid fa-quote-left p-2"></i>
+                                <p class="fs-6">...Sempre vou tomar banho com as minhas irmãzinhas e volto cheirosinho...</p>
+                                <i class="fa-solid fa-quote-right p-2"></i>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="feature col p-3 text-center m-3" id="col-depoimento" style="background-color: #fff; border-radius: 15px;">
-                    <img src="img/Foto-Paçoca.webp" alt="" class="paciente-header">
-                    <h3>Paçoca:</h3>
-                    <div class="texto-depoimento d-flex p-2" >
-                        <i class="fa-solid fa-quote-left p-2 d-flex "></i>
-                        <p class="fs-6">...Meus humanos sempre me trazem aqui, sempre saio com esses negócios no pescoço...</p>
-                        <i class="fa-solid fa-quote-right p-2"></i>
+                    <div class="col">
+                        <div class="feature h-100 p-3 text-center" id="col-depoimento" style="background-color: #fff; border-radius: 15px;">
+                            <img src="img/Foto-Paçoca.webp" alt="" class="paciente-header">
+                            <h3>Paçoca:</h3>
+                            <div class="texto-depoimento d-flex p-2" >
+                                <i class="fa-solid fa-quote-left p-2 d-flex "></i>
+                                <p class="fs-6">...Meus humanos sempre me trazem aqui, sempre saio com esses negócios no pescoço...</p>
+                                <i class="fa-solid fa-quote-right p-2"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -164,9 +178,9 @@
         <a href="#" class="btn" style="background-color: #00398D; text-decoration: none; border-radius: 100%;"></a>
     </main>
 
-    <footer>
+    <footer class="border-top">
         <div class="container">
-            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 pt-3 border-top justify-content-around">
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 pt-3 justify-content-around">
                 <div class="col p-3">
                     <h4 class="text-center m-l-3">LOCALIZAÇÃO:</h4>
                     <div class="linha-horizontal-footer" style="border-bottom: 2px solid #00398D"></div>
@@ -197,10 +211,10 @@
                     <h4 class="text-center m-l-3">CONTATO:</h4>
                     <div class="linha-horizontal-footer m-2" style="border-bottom: 2px solid #00398D"></div>
                     <div class="telefones-icones text-center">  
-                        <p class="text-center"><i class="fa-solid fa-phone"></i> (11) 2097-4978</p>
-                        <p class="text-center"><i class="fa-brands fa-whatsapp"></i> (11) 94724-1120</p>
+                        <div class="text-center"><i class="fa-solid fa-phone"></i> (11) 2097-4978</div>
+                        <div class="text-center"><i class="fa-brands fa-whatsapp"></i> (11) 94724-1120</div>
                     </div>
-                    <h5 class="text-center">Nossas redes sociais:</h5>
+                    <h5 class="text-center pt-2">Nossas redes sociais:</h5>
                     <div class="redes-sociais text-center">
                         <a href="https://www.instagram.com/clinicavetsfa/" target="_blank"><i class="fa-brands fa-instagram icones-footer fs-2 px-3 py-2"></i></a>
                         <a href="https://www.instagram.com/clinicavetsfa/" target="_blank"><i class="fa-brands fa-facebook icones-footer fs-2"></i></a>
@@ -208,8 +222,10 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="background-color: #00398D;">
-            <h5 class="text-center p-2 fs-6" style="color: #fff; margin-bottom: 0;">© 2021 CLÍNICA VETERINÁRIA SÃO FRANCISCO DE ASSIS</h5>
+        <div style="background-color: #00398D;">
+            <div class="container">
+                <h5 class="text-center p-2 fs-6" style="color: #fff; margin-bottom: 0;">© 2021 CLÍNICA VETERINÁRIA SÃO FRANCISCO DE ASSIS</h5>
+            </div>
         </div>
     </footer>
 </body>

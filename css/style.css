@@ -77,6 +77,20 @@ header .container {
     color: #3b67aa;
 }
 
+/* Carousel */
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item > .item-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+}
+
 @media screen and (max-width: 541px) {
     header .container {
         justify-content: center;
